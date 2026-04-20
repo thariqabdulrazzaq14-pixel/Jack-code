@@ -1,0 +1,12 @@
+{
+  "name": "small-business-landing-page",
+  "version": "1.0.0",
+  "description": "Static small business landing page",
+  "scripts": {
+    "test": "playwright test",
+    "test:run": "playwright test --reporter=list"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0"
+  }
+}

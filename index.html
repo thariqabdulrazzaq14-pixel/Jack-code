@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Small business landing page — quality services you can trust.">
+  <title>Acme Co. — Quality Services</title>
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#hero" class="logo-link" aria-label="Acme Co. home">
+        <img
+          src="assets/images/logo.svg"
+          alt="Acme Co. logo"
+          class="logo-img"
+          onerror="this.style.display='none'; document.getElementById('logo-text').style.display='inline';"
+        >
+        <span id="logo-text" class="logo-text" style="display:none;">Acme Co.</span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link">pantek</a></li>
+          <li><a href="#services" class="nav-link">Services</a></li>
+          <li><a href="#testimonials" class="nav-link">Testimonials</a></li>
+          <li><a href="#cta" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="hero" aria-labelledby="hero-heading">
+      <div class="container hero-inner">
+        <h1 id="hero-heading">Reliable Services That Grow Your Business</h1>
+        <p class="hero-tagline">We help small businesses thrive with expert solutions tailored to your unique goals and budget.</p>
+        <a href="#cta" class="btn btn-primary">Get Started Today</a>
+      </div>
+    </section>
+
+    <section id="services" aria-labelledby="services-heading">
+      <div class="container">
+        <h2 id="services-heading">Our Services</h2>
+        <div class="services-grid">
+
+          <article class="service-card">
+            <img
+              src="assets/images/placeholder-icon.svg"
+              alt="Consulting icon"
+              class="service-icon"
+              onerror="this.src='assets/images/placeholder-icon.svg';"
+            >
+            <h3>Business Consulting</h3>
+            <p>Strategic guidance to streamline operations, reduce costs, and unlock new growth opportunities for your business.</p>
+          </article>
+
+          <article class="service-card">
+            <img
+              src="assets/images/placeholder-icon.svg"
+              alt="Marketing icon"
+              class="service-icon"
+              onerror="this.src='assets/images/placeholder-icon.svg';"
+            >
+            <h3>Digital Marketing</h3>
+            <p>Data-driven campaigns across search, social, and email that attract the right customers and convert them reliably.</p>
+          </article>
+
+          <article class="service-card">
+            <img
+              src="assets/images/placeholder-icon.svg"
+              alt="Web design icon"
+              class="service-icon"
+              onerror="this.src='assets/images/placeholder-icon.svg';"
+            >
+            <h3>Web Design</h3>
+            <p>Fast, accessible, and beautiful websites built to represent your brand and turn visitors into loyal customers.</p>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="testimonials" aria-labelledby="testimonials-heading">
+      <div class="container">
+        <h2 id="testimonials-heading">What Our Customers Say</h2>
+        <div class="testimonials-grid">
+
+          <article class="testimonial-card">
+            <img
+              src="assets/images/placeholder-avatar.svg"
+              alt="Photo of Jane Smith"
+              class="testimonial-avatar"
+              onerror="this.src='assets/images/placeholder-avatar.svg';"
+            >
+            <blockquote>
+              <p>"Working with Acme Co. transformed our online presence. Sales increased 40% in the first quarter."</p>
+            </blockquote>
+            <cite>Jane Smith — CEO, Bright Futures LLC</cite>
+          </article>
+
+          <article class="testimonial-card">
+            <img
+              src="assets/images/placeholder-avatar.svg"
+              alt="Photo of Marcus Johnson"
+              class="testimonial-avatar"
+              onerror="this.src='assets/images/placeholder-avatar.svg';"
+            >
+            <blockquote>
+              <p>"The consulting team identified inefficiencies we had overlooked for years. Highly recommend their expertise."</p>
+            </blockquote>
+            <cite>Marcus Johnson — Owner, Johnson Hardware</cite>
+          </article>
+
+          <article class="testimonial-card">
+            <img
+              src="assets/images/placeholder-avatar.svg"
+              alt="Photo of Priya Patel"
+              class="testimonial-avatar"
+              onerror="this.src='assets/images/placeholder-avatar.svg';"
+            >
+            <blockquote>
+              <p>"Our new website loads fast, looks great on mobile, and our customers love it. Couldn't be happier."</p>
+            </blockquote>
+            <cite>Priya Patel — Founder, Patel Bakery</cite>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="cta" aria-labelledby="cta-heading">
+      <div class="container cta-inner">
+        <h2 id="cta-heading">Ready to Take the Next Step?</h2>
+        <p>Let's talk about how we can help your business grow. Reach out today — no obligation, no pressure.</p>
+        <a href="mailto:hello@acmeco.example" class="btn btn-primary">Contact Us Now</a>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="footer-brand">Acme Co.</p>
+      <p class="footer-copy">&copy; <span id="footer-year"></span> Acme Co. All rights reserved.</p>
+      <p class="footer-contact">
+        <a href="mailto:hello@acmeco.example">hello@acmeco.example</a>
+      </p>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
